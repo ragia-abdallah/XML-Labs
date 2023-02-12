@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+<location>New Capital</location>
+<description>Technology Library of ITI</description>
+<librarian>Ragia Abdallah</librarian>
+<book1>
+<title>XML</title>
+<ISBN>0-3623-9788-0</ISBN>
+<author>Ragia Abdallah</author>
+<preface>This is preface for book 1</preface>
+<part>
+<title>part 1</title>
+<chapter>ch1
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+</chapter>
+</part>
+<part>
+<title>part 2</title>
+<chapter>ch1
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+</chapter>
+</part>
+</book1>
+<book2>
+<title>Java</title>
+<ISBN>0-1011-6151-4</ISBN>
+<author>Ragia Abdallah brdo</author>
+<preface>This is preface for book 2</preface>
+<part>
+<title>part 1</title>
+<chapter>ch1
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+</chapter>
+</part>
+<part>
+<title>part 2</title>
+<chapter>ch1
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+</chapter>
+</part>
+</book2>
+<book3>
+<title>Python</title>
+<ISBN>0-2586-2813-8</ISBN>
+<author>Ragia Abdallah tany 3shan el creativity</author>
+<preface>Guess what? This is preface for book 3</preface>
+<part>
+<title>part 1</title>
+<chapter>ch1
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+</chapter>
+</part>
+<part>
+<title>part 2</title>
+<chapter>ch1
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+</chapter>
+</part>
+</book3>
+</library>
