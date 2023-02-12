@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library [
+        <!ELEMENT library (location|description|librarian|book1|book2|part)*>
+        <!ELEMENT location (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT librarian (#PCDATA)>
+        <!ELEMENT book1 (title|ISBN|author|preface|part)*>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT ISBN (#PCDATA)>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT preface (#PCDATA)>
+        <!ELEMENT part (title|chapter)*>
+        <!ELEMENT chapter (title|summary|section1|paragraph|section2)*>
+        <!ELEMENT summary (#PCDATA)>
+        <!ELEMENT section1 (paragraph)*>
+        <!ELEMENT paragraph (#PCDATA)>
+        <!ELEMENT section2 (#PCDATA)>
+        <!ELEMENT book2 (title|ISBN|author|preface|chapter)*>
+        <!ELEMENT book3 (title|ISBN|author|preface|chapter)*>
+        ]>
 <library>
 <location>New Capital</location>
 <description>Technology Library of ITI</description>
@@ -10,18 +29,64 @@
 <preface>This is preface for book 1</preface>
 <part>
 <title>part 1</title>
-<chapter>ch1
+<chapter>
+<title>ch1</title>
+<summary>This is ch1 summary</summary>
+<section1>
 <paragraph>p1</paragraph>
 <paragraph>p2</paragraph>
 <paragraph>p3</paragraph>
+</section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+<section2>
+</section2>
+</chapter>
+<chapter>
+<title>ch2</title>
+<summary>This is ch2 summary</summary>
+<section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+</section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+<section2>
+</section2>
 </chapter>
 </part>
 <part>
 <title>part 2</title>
-<chapter>ch1
+<chapter>
+<title>ch1</title>
+<summary>This is ch1 summary</summary>
+<section1>
 <paragraph>p1</paragraph>
 <paragraph>p2</paragraph>
 <paragraph>p3</paragraph>
+</section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+<section2>
+</section2>
+</chapter>
+<chapter>
+<title>ch2</title>
+<summary>This is ch2 summary</summary>
+<section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+</section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+<section2>
+</section2>
 </chapter>
 </part>
 </book1>
@@ -30,20 +95,65 @@
 <ISBN>0-1011-6151-4</ISBN>
 <author>Ragia Abdallah brdo</author>
 <preface>This is preface for book 2</preface>
-<part>
 <title>part 1</title>
-<chapter>ch1
+<chapter>
+<title>ch1</title>
+<summary>This is ch1 summary</summary>
+<section1>
 <paragraph>p1</paragraph>
 <paragraph>p2</paragraph>
 <paragraph>p3</paragraph>
+</section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+<section2>
+</section2>
+</chapter>
+<chapter>
+<title>ch2</title>
+<summary>This is ch2 summary</summary>
+<section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+</section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+<section2>
+</section2>
 </chapter>
 </part>
 <part>
 <title>part 2</title>
-<chapter>ch1
+<chapter>
+<title>ch1</title>
+<summary>This is ch1 summary</summary>
+<section1>
 <paragraph>p1</paragraph>
 <paragraph>p2</paragraph>
 <paragraph>p3</paragraph>
+</section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+<section2>
+</section2>
+</chapter>
+<chapter>
+<title>ch2</title>
+<summary>This is ch2 summary</summary>
+<section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+</section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+<section2>
+</section2>
 </chapter>
 </part>
 </book2>
@@ -52,20 +162,65 @@
 <ISBN>0-2586-2813-8</ISBN>
 <author>Ragia Abdallah tany 3shan el creativity</author>
 <preface>Guess what? This is preface for book 3</preface>
-<part>
 <title>part 1</title>
-<chapter>ch1
+<chapter>
+<title>ch1</title>
+<summary>This is ch1 summary</summary>
+<section1>
 <paragraph>p1</paragraph>
 <paragraph>p2</paragraph>
 <paragraph>p3</paragraph>
+</section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+<section2>
+</section2>
+</chapter>
+<chapter>
+<title>ch2</title>
+<summary>This is ch2 summary</summary>
+<section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+</section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+<section2>
+</section2>
 </chapter>
 </part>
 <part>
 <title>part 2</title>
-<chapter>ch1
+<chapter>
+<title>ch1</title>
+<summary>This is ch1 summary</summary>
+<section1>
 <paragraph>p1</paragraph>
 <paragraph>p2</paragraph>
 <paragraph>p3</paragraph>
+</section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+<section2>
+</section2>
+</chapter>
+<chapter>
+<title>ch2</title>
+<summary>This is ch2 summary</summary>
+<section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+</section1>
+<paragraph>p1</paragraph>
+<paragraph>p2</paragraph>
+<paragraph>p3</paragraph>
+<section2>
+</section2>
 </chapter>
 </part>
 </book3>
